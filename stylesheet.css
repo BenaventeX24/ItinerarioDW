@@ -1,0 +1,154 @@
+
+/*------------------ Bat 1 ------------------*/
+#battle1 {
+  background: #5d3a3a;
+}
+div#battle1 p {
+  width: 200px;
+  height: 200px;
+  background: #b5e0ba;
+  margin: 0;
+}
+/*------------------ Bat 1 ------------------*/
+
+/*------------------ Bat 2 ------------------*/
+#battle2 {
+  background: #62374e;
+}
+div#battle2 p {
+  width: 50px;
+  height: 50px;
+  background: #fdc57b;
+  display: inline-block;
+}
+div#battle2 p:nth-child(1) {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+div#battle2 p:nth-child(2) {
+  margin-top: 50px;
+  margin-left: 200px;
+}
+div#battle2 p:nth-child(3) {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+div#battle2 p:nth-child(4) {
+  margin-top: 100px;
+  margin-left: 200px;
+}
+/*------------------ Bat 2 ------------------*/
+
+/*------------------ Bat 3 ------------------*/
+#battle3 {
+  background: #6592cf;
+}
+#battle3 #a {
+  margin: 75px 50px;
+  width: px;
+  height: 150px;
+  background: #243d83;
+  overflow: hidden;
+  position: relative;
+}
+#battle3 #b {
+  border: 50px solid #6592cf;
+  border-radius: 150px;
+  width: 150px;
+  height: 150px;
+  background: #243d83;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#battle3 #c {
+  border-radius: 25px;
+  width: 50px;
+  height: 50px;
+  background: #eeb850;
+  margin: 50px auto;
+}
+/*------------------ Bat 3 ------------------*/
+
+/*------------------ Bat 4 ------------------*/
+
+#battle4{
+  position: relative;
+  background: #62306D;
+}
+
+#battle4 p{
+  width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    position: absolute;
+    border-radius: 0 0 50px 50px;
+}
+
+#battle4 #a {
+  top: 50px;
+  left: 150px;
+  transform: rotate(180deg);
+}
+#battle4 #b {
+  top: 150px;
+  left: 50px;
+}
+#battle4 #c {
+  top: 150px;
+  left: 250px;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 1em;
+  background-color: #dfdfdf;
+  display: grid;
+  grid-gap: 1rem;
+}
+
+/*------------------ Bat 4 ------------------*/
+
+/*------------ 1linelayouts ------------*/
+
+.container {
+  margin-top: 2em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+/*------------ 1linelayouts ------------*/
+
+#battle1,
+#battle2,
+#battle3,
+#battle4 {
+  border: 1px solid black;
+  width: 400px;
+  height: 300px;
+}
+
+.box {
+  cursor: pointer;
+  color: #333333;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  padding: 1em;
+  width: auto;
+  margin: 1em;
+}
+
+#title h1, #title p{
+  margin-left: .5em;
+  display: inline;
+}
+
+#title p{
+  font-size: 3em;
+  color: rgb(2, 89, 95);
+  border: 2px black dotted;
+  border-radius: 50%;
+  padding: 5px;
+}
